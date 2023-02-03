@@ -1,8 +1,14 @@
-package com.easy.array;
+package com.AC.array;
 
 import java.util.HashSet;
 
-public class ContainsDuplicate217 {
+/**
+ * @author JiaDi Zhang
+ * @LeetCode: 217. Contains Duplicate
+ * @Link:
+ * @date 2023/2/3
+ */
+public class Contains_Duplicate {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet<Integer>();
 

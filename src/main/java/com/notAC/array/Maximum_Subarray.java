@@ -1,16 +1,12 @@
-package com.medium.array;
+package com.notAC.array;
 
-public class MaximumSubarray53 {
-    public static void main(String[] args) {
-        int[] nums = new int[10];
-        nums[0] = -5;
-        nums[1] = -4;
-        nums[2] = -1;
-        nums[3] = -7;
-        nums[4] = -8;
-        System.out.println(maxSubArray(nums));
-    }
-
+/**
+ * @author JiaDi Zhang
+ * @LeetCode: 53. Maximum Subarray
+ * @Link:
+ * @date 2023/2/3
+ */
+public class Maximum_Subarray {
     public static int maxSubArray(int[] nums) {
         int length = nums.length;
 
