@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="1. Two Sum">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/Two_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/array/ContainsDuplicate217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/Contains_Duplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/array/TwoSum1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/medium/array/MaximumSubarray53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/Maximum_Subarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
       <updated>1675330177702</updated>
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
-      <workItem from="1675405759572" duration="9468000" />
+      <workItem from="1675405759572" duration="12421000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -98,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675408713124</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor">
+      <created>1675418201177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675418201177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +134,8 @@
     <MESSAGE value="217.Contains Duplicate" />
     <MESSAGE value="53. Maximum Subarray" />
     <MESSAGE value="1. Two Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Two Sum" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
