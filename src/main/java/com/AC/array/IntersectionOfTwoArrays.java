@@ -1,8 +1,6 @@
 package com.AC.array;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -12,7 +10,7 @@ import java.util.List;
  * https://leetcode.com/problems/intersection-of-two-arrays-ii/?envType=study-plan&id=data-structure-i
  * @date 2023/2/4
  */
-public class Intersection_of_Two_Arrays {
+public class IntersectionOfTwoArrays {
 
     public static void main(String[] args) {
         int[] nums1 = new int[]{1,2,2,1};

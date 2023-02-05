@@ -1,12 +1,5 @@
 package com.AC.array;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * @author JiaDi Zhang
  * @LeetCode: 121. Best Time to Buy and Sell Stock
@@ -14,7 +7,7 @@ import java.util.Set;
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  * @date 2023/2/4
  */
-public class Best_Time_to_Buy_and_Sell_Stock {
+public class BestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) {
         int sum = 0, max_profit = 0, subValue;
         for(int i = 0; i < prices.length - 1; i++ ) {

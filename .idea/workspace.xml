@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Refactor">
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Reshape the Matrix - Brute force solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Contains_Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Intersection_of_Two_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/IntersectionOfTwoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Maximum_Subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/MergeSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
       <updated>1675330177702</updated>
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
-      <workItem from="1675405759572" duration="12421000" />
+      <workItem from="1675405759572" duration="27963000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -100,7 +105,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675418201177</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge_Sorted_Array">
+      <created>1675431857554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675431857554</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Intersection of Two Arrays II">
+      <created>1675517373963</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675517373963</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Best Time to Buy and Sell Stock">
+      <created>1675517383999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675517383999</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor">
+      <created>1675561622353</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675561622353</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Reshape the Matrix - Brute force solution">
+      <created>1675589825786</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675589825786</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,16 +174,35 @@
     <MESSAGE value="217.Contains Duplicate" />
     <MESSAGE value="53. Maximum Subarray" />
     <MESSAGE value="1. Two Sum" />
+    <MESSAGE value="Merge_Sorted_Array" />
+    <MESSAGE value="Intersection of Two Arrays II" />
+    <MESSAGE value="Best Time to Buy and Sell Stock" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Reshape the Matrix - Brute force solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reshape the Matrix - Brute force solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/notAC/array/MergeSortedArray.java</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AC/array/IntersectionOfTwoArrays.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AC/array/IntersectionOfTwoArrays.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AC/array/IntersectionOfTwoArrays.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,7 +6,7 @@ package com.notAC.array;
  * @Link:
  * @date 2023/2/3
  */
-public class Maximum_Subarray {
+public class MaximumSubarray {
     public static int maxSubArray(int[] nums) {
         int length = nums.length;
 
