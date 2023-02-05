@@ -1,4 +1,4 @@
-package com.notAC.array;
+package com.AC.array;
 
 import java.util.Arrays;
 import java.util.HashMap;
