@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Reshape the Matrix - Brute force solution">
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Add markdown files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/PascalsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Contains_Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Intersection_of_Two_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Maximum_Subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/notAC/array/Merge_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/MergeSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
       <updated>1675330177702</updated>
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
-      <workItem from="1675405759572" duration="27963000" />
+      <workItem from="1675405759572" duration="30869000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -140,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675589825786</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor">
+      <created>1675589899767</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675589899767</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add markdown files">
+      <created>1675589923695</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675589923695</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,9 +186,10 @@
     <MESSAGE value="Merge_Sorted_Array" />
     <MESSAGE value="Intersection of Two Arrays II" />
     <MESSAGE value="Best Time to Buy and Sell Stock" />
-    <MESSAGE value="Refactor" />
     <MESSAGE value="Reshape the Matrix - Brute force solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reshape the Matrix - Brute force solution" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Add markdown files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add markdown files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
