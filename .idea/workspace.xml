@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Search2DMatrix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/notAC/array/ValidSudoku.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Update markdown files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Brute force algorithm .md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Brute force algorithm .md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Two-Pointer Approach.md" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Two-Pointer Approach.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
       <workItem from="1675405759572" duration="34075000" />
-      <workItem from="1675663035482" duration="7083000" />
+      <workItem from="1675663035482" duration="9866000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -173,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675672316016</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ValidSudoku">
+      <created>1675674298786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675674298786</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update markdown files">
+      <created>1675674317798</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675674317798</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +228,9 @@
     <MESSAGE value="Pascal's Triangle - Brute force solution" />
     <MESSAGE value="ReshapeTheMatrix - add solution" />
     <MESSAGE value="Search2DMatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search2DMatrix" />
+    <MESSAGE value="ValidSudoku" />
+    <MESSAGE value="Update markdown files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update markdown files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
