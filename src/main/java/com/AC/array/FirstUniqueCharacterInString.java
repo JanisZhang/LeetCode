@@ -25,5 +25,4 @@ public class FirstUniqueCharacterInString {
         }
         return -1;
     }
-    }
 }

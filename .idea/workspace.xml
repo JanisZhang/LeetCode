@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Update markdown files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="First Unique Character in a String - very low efficiency solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/RansomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.AC.array.RansomNote" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.AC.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RansomNote" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +78,7 @@
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
       <workItem from="1675405759572" duration="34075000" />
-      <workItem from="1675663035482" duration="9866000" />
+      <workItem from="1675663035482" duration="11896000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -185,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675674317798</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="First Unique Character in a String - very low efficiency solution">
+      <created>1675692330126</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675692330126</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +258,8 @@
     <MESSAGE value="Search2DMatrix" />
     <MESSAGE value="ValidSudoku" />
     <MESSAGE value="Update markdown files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update markdown files" />
+    <MESSAGE value="First Unique Character in a String - very low efficiency solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Unique Character in a String - very low efficiency solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
