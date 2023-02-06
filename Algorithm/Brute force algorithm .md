@@ -1,1 +1,5 @@
-# Brute force algorithm: Two Sum Problem
+# Brute force algorithm
+
+Bottlenecks  
+unnecessary work   
+Duplicate work
