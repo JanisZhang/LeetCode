@@ -18,7 +18,30 @@ public class RansomNote {
         String ransomNote = "aab", magazine = "baa";
         System.out.println(canConstruct(ransomNote,magazine));
     }
+
     public static boolean canConstruct(String ransomNote, String magazine) {
+        if (ransomNote.length() > magazine.length()) {
+            return false;
+        }
+
+        int[] arr = new int[26];
+
+        for (char m : magazine.toCharArray()) {
+            arr[m - 'a']++;
+        }
+
+        for (char r : ransomNote.toCharArray()) {
+            if(arr[r - 'a'] == 0){
+                return false;
+            }
+            arr[r - 'a']--;
+        }
+
+        return true;
+    }
+
+
+    public static boolean canConstruct1(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) {
             return false;
         }
@@ -45,7 +68,7 @@ public class RansomNote {
         }
         return true;
     }
-    public static boolean canConstruct1(String ransomNote, String magazine) {
+    public static boolean canConstruct2(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) {
             return false;
         }
