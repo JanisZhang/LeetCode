@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Refactor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/string/RansomNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/string/RansomNote.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Ransom Note">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1675387183508" duration="11000" />
       <workItem from="1675405759572" duration="34075000" />
       <workItem from="1675663035482" duration="11991000" />
-      <workItem from="1675769238869" duration="7965000" />
+      <workItem from="1675769238869" duration="9999000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675815709141</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Ransom Note">
+      <created>1675821531273</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675821531273</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +289,8 @@
     <MESSAGE value="Ransom Note - very low efficiency solution" />
     <MESSAGE value=" Valid Anagram and First Unique Character in a String" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Ransom Note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ransom Note" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
