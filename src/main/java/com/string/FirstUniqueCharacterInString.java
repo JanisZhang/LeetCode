@@ -1,4 +1,4 @@
-package com.AC.array;
+package com.string;
 
 import java.util.ArrayList;
 import java.util.List;

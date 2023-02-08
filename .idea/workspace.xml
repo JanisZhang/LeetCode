@@ -49,11 +49,11 @@
 }</component>
   <component name="RunManager">
     <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.AC.array.RansomNote" />
+      <option name="MAIN_CLASS_NAME" value="com.string.RansomNote" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.AC.array.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

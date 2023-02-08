@@ -1,4 +1,4 @@
-package com.notAC.array;
+package com.array;
 
 /**
  * @author JiaDi Zhang

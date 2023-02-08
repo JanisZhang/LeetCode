@@ -1,4 +1,4 @@
-package com.AC.array;
+package com.string;
 
 import com.sun.deploy.util.StringUtils;
 
