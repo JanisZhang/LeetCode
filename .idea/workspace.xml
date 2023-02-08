@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="First Unique Character in a String - very low efficiency solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/RansomNote.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Ransom Note - very low efficiency solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/ValidAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AC/array/FirstUniqueCharacterInString.java" afterDir="false" />
     </list>
@@ -78,7 +78,8 @@
       <workItem from="1675330178836" duration="3278000" />
       <workItem from="1675387183508" duration="11000" />
       <workItem from="1675405759572" duration="34075000" />
-      <workItem from="1675663035482" duration="11896000" />
+      <workItem from="1675663035482" duration="11991000" />
+      <workItem from="1675769238869" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675692330126</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ransom Note - very low efficiency solution">
+      <created>1675694326853</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675694326853</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +267,8 @@
     <MESSAGE value="ValidSudoku" />
     <MESSAGE value="Update markdown files" />
     <MESSAGE value="First Unique Character in a String - very low efficiency solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Unique Character in a String - very low efficiency solution" />
+    <MESSAGE value="Ransom Note - very low efficiency solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ransom Note - very low efficiency solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
