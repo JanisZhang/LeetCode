@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Linked List Cycle - slow-fast method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/MergeTwoSortedList.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment=" Merge Two Sorted Lists and refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveLinkedListElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,8 @@
       <workItem from="1675405759572" duration="34075000" />
       <workItem from="1675663035482" duration="11991000" />
       <workItem from="1675769238869" duration="10807000" />
-      <workItem from="1675930378568" duration="2852000" />
+      <workItem from="1675930378568" duration="4387000" />
+      <workItem from="1675939527753" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675842994013</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=" Merge Two Sorted Lists and refactor">
+      <created>1675933441333</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675933441333</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +308,8 @@
     <MESSAGE value="Ransom Note" />
     <MESSAGE value="Linked List Cycle" />
     <MESSAGE value="Linked List Cycle - slow-fast method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List Cycle - slow-fast method" />
+    <MESSAGE value=" Merge Two Sorted Lists and refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Merge Two Sorted Lists and refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,16 +338,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/array/TwoSum.java</url>
           <line>26</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/MergeTwoSortedList.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/MergeTwoSortedList.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
