@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment=" Merge Two Sorted Lists and refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveLinkedListElements.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment=" Remove Linked List Elements">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <workItem from="1675663035482" duration="11991000" />
       <workItem from="1675769238869" duration="10807000" />
       <workItem from="1675930378568" duration="4387000" />
-      <workItem from="1675939527753" duration="2216000" />
+      <workItem from="1675939527753" duration="3336000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675933441333</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary=" Remove Linked List Elements">
+      <created>1675941852372</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675941852372</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +316,8 @@
     <MESSAGE value="Linked List Cycle" />
     <MESSAGE value="Linked List Cycle - slow-fast method" />
     <MESSAGE value=" Merge Two Sorted Lists and refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Merge Two Sorted Lists and refactor" />
+    <MESSAGE value=" Remove Linked List Elements" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Remove Linked List Elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,6 +346,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/array/TwoSum.java</url>
           <line>26</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
