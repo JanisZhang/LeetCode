@@ -3,7 +3,7 @@ package com.Queue;
 /**
  * @author JiaDi Zhang
  * @LeetCode: 232.Implement Queue using Stacks
- * @Link:
+ * @Link: Runtime: 0ms, Memory 40.3 MB
  * https://leetcode.com/problems/implement-queue-using-stacks/?envType=study-plan&id=data-structure-i
  * @date 2023/2/10
  */
