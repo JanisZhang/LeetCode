@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Remove Duplicates from Sorted List">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LinkedList/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Reverse Linked List">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Queue/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <workItem from="1675769238869" duration="10807000" />
       <workItem from="1675930378568" duration="4387000" />
       <workItem from="1675939527753" duration="5053000" />
-      <workItem from="1676009222622" duration="535000" />
+      <workItem from="1676009222622" duration="2556000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675942983165</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Reverse Linked List">
+      <created>1676024937055</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676024937055</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +333,8 @@
     <MESSAGE value=" Merge Two Sorted Lists and refactor" />
     <MESSAGE value=" Remove Linked List Elements" />
     <MESSAGE value="Remove Duplicates from Sorted List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Duplicates from Sorted List" />
+    <MESSAGE value="Reverse Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,6 +378,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java</url>
           <line>29</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Queue/MyQueue.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
