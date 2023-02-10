@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Implement Queue using Stacks - Add Runtime and memory">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Queue/MyQueue2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Queue/MyQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Implement Queue using Stacks - simplify" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1675769238869" duration="10807000" />
       <workItem from="1675930378568" duration="4387000" />
       <workItem from="1675939527753" duration="5053000" />
-      <workItem from="1676009222622" duration="2866000" />
+      <workItem from="1676009222622" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -286,7 +283,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676027003021</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Implement Queue using Stacks - Add Runtime and memory">
+      <created>1676027433000</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676027433000</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Implement Queue using Stacks - list method">
+      <created>1676027444830</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676027444830</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Implement Queue using Stacks - simplify">
+      <created>1676027789544</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676027789544</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,8 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="53. Maximum Subarray" />
-    <MESSAGE value="1. Two Sum" />
     <MESSAGE value="Merge_Sorted_Array" />
     <MESSAGE value="Intersection of Two Arrays II" />
     <MESSAGE value="Best Time to Buy and Sell Stock" />
@@ -341,7 +357,9 @@
     <MESSAGE value="Reverse Linked List" />
     <MESSAGE value="Implement Queue using Stacks - Array method" />
     <MESSAGE value="Implement Queue using Stacks - Add Runtime and memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Queue using Stacks - Add Runtime and memory" />
+    <MESSAGE value="Implement Queue using Stacks - list method" />
+    <MESSAGE value="Implement Queue using Stacks - simplify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Queue using Stacks - simplify" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,6 +413,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/Queue/MyQueue2.java</url>
           <line>35</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/Queue/MyQueue2.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
