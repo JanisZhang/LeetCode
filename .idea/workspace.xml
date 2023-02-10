@@ -78,7 +78,7 @@
       <workItem from="1675769238869" duration="10807000" />
       <workItem from="1675930378568" duration="4387000" />
       <workItem from="1675939527753" duration="5053000" />
-      <workItem from="1676009222622" duration="3403000" />
+      <workItem from="1676009222622" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -304,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676027789544</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Implement Queue using Stacks - simplify">
+      <created>1676027802480</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676027802480</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
