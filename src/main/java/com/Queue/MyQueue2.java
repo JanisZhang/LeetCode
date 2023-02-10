@@ -41,7 +41,7 @@ public class MyQueue2 {
     }
 
     public int pop() {
-        Integer value = list.get(0);
+        Integer value = peek();
         list.remove(value);
         return value;
     }
