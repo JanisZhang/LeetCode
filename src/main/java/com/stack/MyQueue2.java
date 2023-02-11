@@ -1,19 +1,18 @@
-package com.Queue;
+package com.stack;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * @author JiaDi Zhang
  * @LeetCode: 232.Implement Queue using Stacks
- * @Link: Runtime: ms, Memory  MB
+ * @Link: Runtime: 0ms, Memory 40.2 MB
  * https://leetcode.com/problems/implement-queue-using-stacks/?envType=study-plan&id=data-structure-i
  * @date 2023/2/10
  */
-public class MyQueueUsingStack {
+public class MyQueue2 {
     public static void main(String[] args) {
-        MyQueueUsingStack queue = new MyQueueUsingStack();
+        MyQueue2 queue = new MyQueue2();
         queue.push(1);
         queue.push(2);
         queue.push(3);
@@ -26,29 +25,27 @@ public class MyQueueUsingStack {
         queue.pop();
     }
 
-    Stack<Integer> input = new Stack<Integer>();
-    Stack<Integer> outPut = new Stack<Integer>();
+    private static List<Integer> list;
 
-    public MyQueueUsingStack() { }
+    public MyQueue2() {
+        list = new LinkedList<Integer>();
+    }
 
     public void push(int x) {
-        input.push(x);
-    }
-    public int pop() {
-        peek();
-        return outPut.pop();
+        list.add(x);
     }
 
     public int peek() {
-        if (outPut.empty()) {
-            while (!input.empty()) {
-                outPut.push(input.pop());
-            }
-        }
-        return outPut.peek();
+        return list.get(0);
+    }
+
+    public int pop() {
+        Integer value = peek();
+        list.remove(value);
+        return value;
     }
 
     public boolean empty() {
-        return input.empty() && outPut.empty();
+        return list.isEmpty();
     }
 }

@@ -1,4 +1,4 @@
-package com.Queue;
+package com.stack;
 
 /**
  * @author JiaDi Zhang
