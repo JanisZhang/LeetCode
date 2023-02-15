@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stack/ValidParentheses.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Valid Parentheses">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676120079344</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Valid Parentheses">
+      <created>1676121756764</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121756764</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Intersection of Two Arrays II" />
     <MESSAGE value="Best Time to Buy and Sell Stock" />
     <MESSAGE value="Reshape the Matrix - Brute force solution" />
     <MESSAGE value="Add markdown files" />
@@ -384,7 +390,8 @@
     <MESSAGE value="Implement Queue using Stacks - simplify" />
     <MESSAGE value="Implement Queue using Stacks - stack" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Valid Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid Parentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
