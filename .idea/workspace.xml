@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Binary Tree Preorder Traversal - recursive solution">
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Binary Tree Preorder Traversal - recursive solution 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676458194680</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Binary Tree Preorder Traversal - recursive solution 2">
+      <created>1676459065675</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676459065675</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +387,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add markdown files" />
     <MESSAGE value="Pascal's Triangle - Brute force solution" />
     <MESSAGE value="ReshapeTheMatrix - add solution" />
     <MESSAGE value="Search2DMatrix" />
@@ -406,7 +411,8 @@
     <MESSAGE value="Valid Parentheses" />
     <MESSAGE value="Add TreeNode class for dry run study" />
     <MESSAGE value="Binary Tree Preorder Traversal - recursive solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Preorder Traversal - recursive solution" />
+    <MESSAGE value="Binary Tree Preorder Traversal - recursive solution 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Preorder Traversal - recursive solution 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -465,6 +471,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/stack/MyQueue2.java</url>
           <line>45</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

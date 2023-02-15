@@ -1,8 +1,11 @@
 package com.tree;
 
+import apple.laf.JRSUIUtils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author JiaDi Zhang
@@ -18,6 +21,8 @@ public class BinaryTreePreorderTraversal {
         node.right = new TreeNode(3);
         node.right.left = new TreeNode(4);
         node.right.left.right = new TreeNode(5);
+
+        System.out.println(traversalIterative(node).size());
     }
 
     public static List<Integer> preorderTraversal1(TreeNode root) {
@@ -55,5 +60,40 @@ public class BinaryTreePreorderTraversal {
         // Recursively traverse the left and right subtrees
         traversal(root.left, result);
         traversal(root.right, result);
+    }
+
+    /**
+     * The reason why the right child is pushed to the stack before the left child is that
+     * we want to process the left subtree before the right subtree (since this is a pre-order traversal).
+     * Pushing the right child before the left child ensures that
+     * the left child will be processed first when it is popped from the stack.
+     */
+    public static List<Integer> traversalIterative(TreeNode root) {
+        if (root == null) {
+            return Collections.emptyList();
+        }
+
+        List<Integer> list = new ArrayList<>();
+
+        // create a stack to store the node as we traverse the tree
+        Stack<TreeNode> stack = new Stack<>();
+        // push the root node onto the stack
+        stack.push(root);
+
+        // while the stack is not empty,
+        while(!stack.isEmpty()){
+            // pop the top node of the stack
+            TreeNode curNode = stack.pop();
+            list.add(curNode.val);
+
+            if(curNode.right != null) {
+                stack.push(curNode.right);
+            }
+
+            if(curNode.left != null) {
+                stack.push(curNode.left);
+            }
+        }
+        return list;
     }
 }
