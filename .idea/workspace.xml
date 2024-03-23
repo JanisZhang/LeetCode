@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Binary Tree Preorder Traversal - iterative solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tree/BinaryTreeInorderTraversal.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="Binary Tree Inorder Traversal - iterative solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/string/LengthOfLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LengthOfLastWord">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.LengthOfLastWord" />
+      <module name="LeetCode-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.string.RansomNote" />
       <module name="LeetCode" />
@@ -63,6 +77,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.RansomNote" />
       </list>
     </recent_temporary>
@@ -357,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676459065675</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Binary Tree Inorder Traversal - iterative solution">
+      <created>1676814798092</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1676814798092</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pascal's Triangle - Brute force solution" />
     <MESSAGE value="ReshapeTheMatrix - add solution" />
     <MESSAGE value="Search2DMatrix" />
     <MESSAGE value="ValidSudoku" />
@@ -412,7 +433,8 @@
     <MESSAGE value="Add TreeNode class for dry run study" />
     <MESSAGE value="Binary Tree Preorder Traversal - recursive solution" />
     <MESSAGE value="Binary Tree Preorder Traversal - recursive solution 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Preorder Traversal - recursive solution 2" />
+    <MESSAGE value="Binary Tree Inorder Traversal - iterative solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Inorder Traversal - iterative solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,11 +458,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/array/IntersectionOfTwoArrays.java</url>
           <line>27</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/array/TwoSum.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/LinkedList/RemoveDuplicatesFromSortedList.java</url>
@@ -511,6 +528,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/tree/BinaryTreePreorderTraversal.java</url>
           <line>92</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/string/LengthOfLastWord.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/string/LengthOfLastWord.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
