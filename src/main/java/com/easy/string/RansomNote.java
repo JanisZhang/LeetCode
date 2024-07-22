@@ -1,8 +1,6 @@
 package com.easy.string;
 
-import com.sun.deploy.util.StringUtils;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
