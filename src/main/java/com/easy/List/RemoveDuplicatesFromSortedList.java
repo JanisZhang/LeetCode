@@ -1,4 +1,4 @@
-package com.easy.LinkedList;
+package com.easy.List;
 
 /**
  * @author JiaDi Zhang
