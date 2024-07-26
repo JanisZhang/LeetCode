@@ -1,4 +1,4 @@
-package com.easy.slidingWindow;
+package com.easy.twoPointer;
 
 /**
  * @link: https://leetcode.com/problems/reverse-string/description/

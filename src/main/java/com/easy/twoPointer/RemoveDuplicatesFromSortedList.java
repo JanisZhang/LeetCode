@@ -1,4 +1,4 @@
-package com.easy.slidingWindow;
+package com.easy.twoPointer;
 
 /**
  * @author JiaDi Zhang
