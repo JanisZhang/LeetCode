@@ -1,4 +1,4 @@
-package com.easy.twoPointer;
+package com.easy.array.twoPointer;
 
 /**
  * @author JiaDi Zhang

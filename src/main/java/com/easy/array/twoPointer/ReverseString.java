@@ -1,4 +1,4 @@
-package com.easy.twoPointer;
+package com.easy.array.twoPointer;
 
 /**
  * @link: https://leetcode.com/problems/reverse-string/description/
