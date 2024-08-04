@@ -1,5 +1,6 @@
 package com.easy.List;
 
+
 /**
  * @author JiaDi Zhang
  * @LeetCode: 141. Linked List Cycle
