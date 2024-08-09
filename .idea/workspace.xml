@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="160. Intersection of Two Linked Lists">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="76. Minimum Window Substring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/List/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/List/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,38 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindFromEnd.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IntersectionOfTwoLinkedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleNode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveNthFromEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rainonme/Desktop/LeetCode-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindFromEnd.executor": "Debug",
+    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
+    "Application.MiddleNode.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.PermutationInString.executor": "Run",
+    "Application.RemoveNthFromEnd.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Debug",
+    "Application.ReverseString.executor": "Run",
+    "Python.ReverseString.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rainonme/Desktop/LeetCode-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.easy.List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+  <component name="RunManager" selected="Application.PermutationInString">
     <configuration name="FindFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easy.List.twopointer.FindFromEnd" />
       <module name="LeetCode" />
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.easy.List.twopointer.RemoveNthFromEnd" />
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easy.string.slidingwindow.PermutationInString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.easy.List.twopointer.*" />
+          <option name="PATTERN" value="com.easy.string.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.FindFromEnd" />
@@ -193,7 +194,7 @@
       <workItem from="1722841123060" duration="4000" />
       <workItem from="1722843569997" duration="6370000" />
       <workItem from="1722907825820" duration="6756000" />
-      <workItem from="1723019801218" duration="7317000" />
+      <workItem from="1723019801218" duration="19765000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -475,22 +476,6 @@
       <option name="project" value="LOCAL" />
       <updated>1676814798092</updated>
     </task>
-    <task id="LOCAL-00042" summary="344. Reverse String">
-      <option name="closed" value="true" />
-      <created>1721910115430</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1721910115430</updated>
-    </task>
-    <task id="LOCAL-00043" summary="//To-do MergeKLists">
-      <option name="closed" value="true" />
-      <created>1722325326025</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1722325326025</updated>
-    </task>
     <task id="LOCAL-00044" summary="返回链表的倒数第k个节点">
       <option name="closed" value="true" />
       <created>1722325349413</created>
@@ -547,7 +532,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722744000349</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1723083339282</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1723083339283</updated>
+    </task>
+    <task id="LOCAL-00052" summary="76. Minimum Window Substring">
+      <option name="closed" value="true" />
+      <created>1723083356136</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1723083356136</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" Remove Linked List Elements" />
     <MESSAGE value="Remove Duplicates from Sorted List" />
     <MESSAGE value="Reverse Linked List" />
     <MESSAGE value="Implement Queue using Stacks - Array method" />
@@ -600,9 +600,10 @@
     <MESSAGE value="19. Remove Nth Node From End of List" />
     <MESSAGE value="141. Linked List Cycle" />
     <MESSAGE value="142. Linked List Cycle II" />
-    <MESSAGE value="refactor" />
     <MESSAGE value="160. Intersection of Two Linked Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="160. Intersection of Two Linked Lists" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="76. Minimum Window Substring" />
+    <option name="LAST_COMMIT_MESSAGE" value="76. Minimum Window Substring" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
