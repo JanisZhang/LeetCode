@@ -28,15 +28,15 @@ public class PermutationInString {
                 }
             }
 
-            while (valid == need.size()) {
+            while (right - left >= s1.length()) {
+                if (valid == need.size()) {
+                    return true;
+                }
+
                 char del = s2.charAt(left);
                 left++;
 
                 if(need.containsKey(del)){
-                    if(right - left == s1.length()-1) {
-                        return true;
-                    }
-
                     if(windows.get(del).equals(need.get(del))){
                         valid--;
                     }
@@ -44,7 +44,6 @@ public class PermutationInString {
                 }
             }
         }
-
         return false;
     }
 

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="76. Minimum Window Substring">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="567. Permutation in String">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/FindAllAnagramsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FindAllAnagramsInAString.executor": "Run",
     "Application.FindFromEnd.executor": "Debug",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.MiddleNode.executor": "Run",
@@ -84,7 +86,20 @@
       <recent name="com.easy.List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PermutationInString">
+  <component name="RunManager" selected="Application.FindAllAnagramsInAString">
+    <configuration name="FindAllAnagramsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easy.string.slidingwindow.FindAllAnagramsInAString" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easy.string.slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easy.List.twopointer.FindFromEnd" />
       <module name="LeetCode" />
@@ -137,21 +152,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.easy.twoPointer.ReverseString" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.easy.twoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindAllAnagramsInAString" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.ReverseLinkedList" />
@@ -194,7 +197,7 @@
       <workItem from="1722841123060" duration="4000" />
       <workItem from="1722843569997" duration="6370000" />
       <workItem from="1722907825820" duration="6756000" />
-      <workItem from="1723019801218" duration="19765000" />
+      <workItem from="1723019801218" duration="25292000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -476,14 +479,6 @@
       <option name="project" value="LOCAL" />
       <updated>1676814798092</updated>
     </task>
-    <task id="LOCAL-00044" summary="返回链表的倒数第k个节点">
-      <option name="closed" value="true" />
-      <created>1722325349413</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1722325349413</updated>
-    </task>
     <task id="LOCAL-00045" summary="876. Middle of the Linked List">
       <option name="closed" value="true" />
       <created>1722402466612</created>
@@ -548,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723083356136</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="567. Permutation in String">
+      <option name="closed" value="true" />
+      <created>1723184633117</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1723184633117</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Duplicates from Sorted List" />
     <MESSAGE value="Reverse Linked List" />
     <MESSAGE value="Implement Queue using Stacks - Array method" />
     <MESSAGE value="Implement Queue using Stacks - Add Runtime and memory" />
@@ -603,7 +605,8 @@
     <MESSAGE value="160. Intersection of Two Linked Lists" />
     <MESSAGE value="refactor" />
     <MESSAGE value="76. Minimum Window Substring" />
-    <option name="LAST_COMMIT_MESSAGE" value="76. Minimum Window Substring" />
+    <MESSAGE value="567. Permutation in String" />
+    <option name="LAST_COMMIT_MESSAGE" value="567. Permutation in String" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
