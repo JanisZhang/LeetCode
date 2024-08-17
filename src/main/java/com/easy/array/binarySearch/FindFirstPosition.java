@@ -14,11 +14,12 @@ public class FindFirstPosition {
                 left = mid + 1;
             }
         }
-        return left;
+
+        return nums[left] == target? left:-1;
     }
 
     public static void main(String[] args) {
         int[] nums = new int[]{2,2,7,8,9,9,10};
-        System.out.println(search(nums,9));
+        System.out.println(search(nums,11));
     }
 }
