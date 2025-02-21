@@ -1,4 +1,4 @@
-package com.easy.List.twopointer;
+package com.easy.twopointer;
 
 /**
  * @link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/

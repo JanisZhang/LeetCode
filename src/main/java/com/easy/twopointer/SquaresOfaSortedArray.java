@@ -1,4 +1,4 @@
-package com.easy.array.twoPointer;
+package com.easy.twopointer;
 
 /**
  * @link https://leetcode.com/problems/squares-of-a-sorted-array/description/

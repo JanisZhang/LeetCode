@@ -1,8 +1,6 @@
 package com.easy.List;
 
 
-import com.easy.List.twopointer.PartitionList;
-
 /**
  * @author JiaDi Zhang
  * @LeetCode: 206. Reverse Linked List

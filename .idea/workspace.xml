@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="567. Permutation in String">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/FindAllAnagramsInAString.java" afterDir="false" />
+    <list default="true" id="5c91bf02-d8a9-4c04-a725-274d16a24eb3" name="Changes" comment="202">
+      <change afterPath="$PROJECT_DIR$/Algorithm/Floyd Cycle Detection.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/easy/string/slidingwindow/PermutationInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/easy/hashmap/HappyNumber.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +29,17 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="283. Move Zeroes" />
-        <option name="rewordedMessage" value="283. Move Zeroes" />
+        <option name="originalMessage" value="202. Happy Number - using HashSet&#10;&#10;202. Happy Number" />
+        <option name="rewordedMessage" value="202. Happy Number - using HashSet" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="73eaeeac02b168e1ef2c69d9b584afe7627a37ce" />
+    <option name="onto" value="27cfd3708986bbd8e0bdde1b1136b3b43b670596" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,40 +53,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FindAllAnagramsInAString.executor": "Run",
-    "Application.FindFromEnd.executor": "Debug",
-    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
-    "Application.MiddleNode.executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.PermutationInString.executor": "Run",
-    "Application.RemoveNthFromEnd.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Debug",
-    "Application.ReverseString.executor": "Run",
-    "Python.ReverseString.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rainonme/Desktop/LeetCode-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FindAllAnagramsInAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFromEnd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HappyNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfTwoLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleNode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveNthFromEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HappyNumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rainonme/Desktop/LeetCode-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.easy.List" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindAllAnagramsInAString">
+  <component name="RunManager" selected="JUnit.HappyNumberTest">
     <configuration name="FindAllAnagramsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easy.string.slidingwindow.FindAllAnagramsInAString" />
       <module name="LeetCode" />
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.easy.List.twopointer.FindFromEnd" />
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easy.hashset.HappyNumber" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.easy.List.twopointer.*" />
+          <option name="PATTERN" value="com.easy.hashset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +141,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.easy.List.ReverseLinkedList" />
+    <configuration name="HappyNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.easy.List.*" />
+          <option name="PATTERN" value="com.easy.hashset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.easy.hashset" />
+      <option name="MAIN_CLASS_NAME" value="com.easy.hashset.HappyNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HappyNumberTest" />
+        <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.FindAllAnagramsInAString" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.FindFromEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +202,9 @@
       <workItem from="1722843569997" duration="6370000" />
       <workItem from="1722907825820" duration="6756000" />
       <workItem from="1723019801218" duration="25292000" />
+      <workItem from="1739845549098" duration="3272000" />
+      <workItem from="1739931220407" duration="3670000" />
+      <workItem from="1739944079692" duration="2604000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1675330485354</created>
@@ -479,30 +486,6 @@
       <option name="project" value="LOCAL" />
       <updated>1676814798092</updated>
     </task>
-    <task id="LOCAL-00045" summary="876. Middle of the Linked List">
-      <option name="closed" value="true" />
-      <created>1722402466612</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1722402466612</updated>
-    </task>
-    <task id="LOCAL-00046" summary="19. Remove Nth Node From End of List">
-      <option name="closed" value="true" />
-      <created>1722402521708</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1722402521708</updated>
-    </task>
-    <task id="LOCAL-00047" summary="141. Linked List Cycle">
-      <option name="closed" value="true" />
-      <created>1722404373447</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1722404373447</updated>
-    </task>
     <task id="LOCAL-00048" summary="142. Linked List Cycle II">
       <option name="closed" value="true" />
       <created>1722519207395</created>
@@ -551,7 +534,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723184633117</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="202. Happy Number - using HashSet">
+      <option name="closed" value="true" />
+      <created>1739945370041</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1739945370042</updated>
+    </task>
+    <task id="LOCAL-00055" summary="202">
+      <option name="closed" value="true" />
+      <created>1739945404034</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1739945404034</updated>
+    </task>
+    <task id="LOCAL-00056" summary="202">
+      <option name="closed" value="true" />
+      <created>1739945413898</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1739945413898</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverse Linked List" />
-    <MESSAGE value="Implement Queue using Stacks - Array method" />
     <MESSAGE value="Implement Queue using Stacks - Add Runtime and memory" />
     <MESSAGE value="Implement Queue using Stacks - list method" />
     <MESSAGE value="Implement Queue using Stacks - simplify" />
@@ -606,7 +611,9 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="76. Minimum Window Substring" />
     <MESSAGE value="567. Permutation in String" />
-    <option name="LAST_COMMIT_MESSAGE" value="567. Permutation in String" />
+    <MESSAGE value="202" />
+    <MESSAGE value="202. Happy Number - using HashSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="202. Happy Number - using HashSet" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

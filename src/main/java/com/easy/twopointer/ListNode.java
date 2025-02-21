@@ -1,4 +1,4 @@
-package com.easy.List.twopointer;
+package com.easy.twopointer;
 
 /**
  * @author JiaDi Zhang

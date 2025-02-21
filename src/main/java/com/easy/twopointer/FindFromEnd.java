@@ -1,4 +1,4 @@
-package com.easy.List.twopointer;
+package com.easy.twopointer;
 
 public class FindFromEnd {
     /**

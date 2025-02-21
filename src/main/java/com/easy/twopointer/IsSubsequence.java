@@ -1,4 +1,4 @@
-package com.easy.string.twopointer;
+package com.easy.twopointer;
 
 /**
  * @link https://leetcode.com/problems/is-subsequence/description/

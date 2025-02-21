@@ -1,4 +1,4 @@
-package com.easy.List.twopointer;
+package com.easy.twopointer;
 
 /**
  * @link:https://leetcode.com/problems/partition-list/description/
