@@ -33,6 +33,19 @@ public class RemoveElement {
 
     public static void main(String[] args) {
         int[] nums = new int[]{0,1,2,2,3,0,4,2};
-        System.out.println(RemoveElement.removeElement(nums, 2));
+        System.out.println(RemoveElement.removeElement2(nums, 2));
+    }
+
+    //认真读题后，我的想法，只要nums[i] != val, nums[k++] = nums[i]
+    public int removeElement2(int[] nums, int val) {
+        int k = 0;
+
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i]!=val){
+                nums[k++] =  nums[i];
+            }
+        }
+
+        return k;
     }
 }
