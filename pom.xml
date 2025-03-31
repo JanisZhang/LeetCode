@@ -13,6 +13,12 @@
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.12.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -25,5 +31,6 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 </project>
